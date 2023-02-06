@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+.color-fondo {
+    background-color: #14141E;
+}
+
+/*Barra de navegacion*/
+.navbar-brand {
+    color:  white;
+}
+.navbar-brand:hover{
+    color: #9547E3;
+}
+.header-area .navbar {
+    padding: 1rem 3rem;
+    background-color: #14141E;
+}
+.header-area .navbar-toggler {
+    background-color: white;
+}
+.header-area .nav-item .nav-link {
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding: 1.5rem;
+    color: white;
+}
+.header-area .nav-item .nav-link:hover {
+    color: #9547E3;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+/*section principal*/
+#home {
+    padding: 80px;
+    padding-top: 100px;
+}
+.home .home-row {
+    padding: 50px 0px;
+    align-items: center;
+    align-content: center;
+}
+.home .home-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #9547E3;
+}
+.home-subtitle {
+    font-family:'Poppins', sans-serif;
+    font-size: 2.0rem;
+    font-weight: lighter;
+    margin: 15px 0;
+    color: white;
+}
+
+/*section principal - botones*/
+.btn-1 {
+    height: 50px;
+    width: 43%;
+    background-color: white;
+    color: black;
+    outline: none;
+    border: 1px solid black;
+    font-weight: bold;
+    border-radius: 15px;
+    padding-top: 12px;
+}
+.btn-1:hover {
+    background-color: #9547E3;
+    transition: 0.5s;
+    color: white;
+} 
+
+
+/*seccion sobre mi*/
+#about{
+    padding: 80px;
+    padding-top: 140px;
+}
+.about .about-row {
+    border-radius: 10px;
+    align-items: center;
+    align-content: center;
+    background-color: #1C1B29;
+}
+
+.about .about-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    color: white;
+}
+.about .about-description{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 0.8rem;
+    font-weight: normal;
+    text-align: center;
+    margin: 20px;
+    color: white;
+}
+.about .skills-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 5px 0;
+    color: white;
+}
+.about .skill-item {
+    padding: 0px 130px 0px 0;
+}
+.about .skill-item .progress-bar {
+    background-color: #9547E3;
+}
+.about .skill-item {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 10px 0px 10px;
+    color: white;
+}
+.about .data-personal{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    color: white;
+}
+.about .data-personal .color-data {
+    color: #9547E3;
+}
+
+/*seccion de proyectos*/
+#proyects {
+    padding: 80px;
+}
+.proyects .proyects-row {
+    align-items: center;
+    align-content: center;
+}
+.proyects .proyects-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 25px 0px;
+    color: white;
+}
+
+/*seccion de contacto*/
+#contact {
+    padding: 120px;
+}
+.contact .contact-row {
+    border-radius: 10px;
+    align-items: center;
+    align-content: center;
+    background-color: #1C1B29;
+}
+
+.contact .contact-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 25px;
+    color: white;
+}
+.contact .form-label {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    text-align: left;
+    text-transform: uppercase;
+    color: white;
+}
+
+/*seccion final - footer*/
+.footer .footer-area {
+    padding: 5rem 0;
+}
+.footer-title {
+    font-family: 'Poppins', sans-serif;
+    font: 1rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: white;
+}
+.footer-copy {
+    color: white;
+    font-weight: lighter;
+    font-size: 0.5;
+}
+.social a>i{
+    font-size: 22px;
+    padding: 1rem;
+    color: white;
+}
